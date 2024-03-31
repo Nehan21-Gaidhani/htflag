@@ -1,0 +1,10 @@
+#custom-card{
+    font-family: "Orbitron", sans-serif;
+  
+    font-optical-sizing: auto;
+}
+#modal{
+    font-family: "Genos", sans-serif;
+    font-optical-sizing: auto;
+    font-size: larger;
+}

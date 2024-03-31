@@ -1,0 +1,21 @@
+#custom-navbar {
+  /* border-radius: 20px; */
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+ 
+      font-family: "Orbitron", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+    
+    
+}
+
+#nav1{
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+} 
+
+.custom-navbar {
+  background-color:#ff5757;
+}
