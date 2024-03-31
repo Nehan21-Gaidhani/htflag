@@ -3,9 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarComp from './Components/NavbarComp';
 import CardComp from './Components/CardComp';
 
-import pdf2 from './assests/srs39.pdf'; //sample
-import pdf3 from './assests/logo512.png';
-import pdf1 from './assests/sample.py';
+
+import pdf3 from './assests/logo512.png';//sample
+import pdf1 from './assests/sample.py';//sample
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <h3 className='heading'> CRYPTOGRAPHY</h3>    
       <div className="d-flex flex-wrap justify-content-evenly"> 
         <CardComp title ="FLOPPY" description="10 points" alertDesc="Using the Credentials from the letter, you logged into the Foobanizer9000-PC. It has a floppy drive... why? There is an .ico file on the disk, but it doesnt smell right... " questionId={1} pdfPath={pdf1} ></CardComp>
-        <CardComp title ="Question 2" description="Description 2" pdfPath={pdf2} questionId={2}></CardComp>
+        <CardComp title ="Question 2" description="Description 2"  questionId={2}></CardComp>
         <CardComp title ="Question 3" description="Description 3"  pdfPath={pdf3}questionId={3}></CardComp>
       </div>
         <h3 className='heading'>FORENSICS</h3>
