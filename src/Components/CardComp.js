@@ -75,7 +75,7 @@ const CardComp = ({ title, description, alertDesc, pdfPath, questionId }) => {
                             <Form.Control type="text" value={textInput} onChange={handleInputChange} placeholder="CTF(...)" />
                         </Form.Group>
                     </Form>
-                    <Button variant="primary" onClick={handleDownloadFile}>Download {title}</Button>
+                    <Button variant="primary" onClick={handleDownloadFile}>Download file</Button>
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={handleCloseModal}>
